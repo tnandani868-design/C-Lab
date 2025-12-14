@@ -7,5 +7,6 @@ int main()
     scanf("%d",&num);
     last_digit=num%10;
     printf("\nThe last digit in %d is %d",num, last_digit);
+    printf("We are learning git");
     return 0;
 }
