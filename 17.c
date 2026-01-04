@@ -1,3 +1,4 @@
+//Switch case
 #include<stdio.h>
 
 int main()
@@ -19,17 +20,17 @@ int main()
              
          case 'u':
              
-               printf("\n %c is vowel",letter);                          
+               printf("\n%c is vowel",letter);                          
                break;
 
         default:
               if(letter >='a' && letter <='z')
               {
-                printf("\n %c is a consonant",letter);
+                printf("\n%c is a consonant",letter);
               }
               else
               {
-                printf("\n %c is neither consonat nor vowel", letter);
+                printf("\n%c is neither consonat nor vowel", letter);
               }
 
     }

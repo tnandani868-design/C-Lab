@@ -22,15 +22,15 @@ int main()
        }
     }
 
-    if (num2>num3)
+    else 
     {
-        if(num2>num1)
+        if(num2>num3)
         {
             printf("\n%d is largest",num2);
         }
         else 
         {
-            printf("\n%d is largest",num1);
+            printf("\n%d is largest",num3);
         }
     }
     return 0;

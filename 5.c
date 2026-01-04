@@ -7,7 +7,7 @@ int main()
 {
     int roll;
     char gender;
-    char name[100];
+    char name[200];
     float marks;
     
     printf("Enter ROLL:");
@@ -17,11 +17,11 @@ int main()
     printf("Enter NAME:");
     scanf(" %[^\n]s ",&name);
     printf("Enter MARKS:");
-    scanf("%f ",&marks);
+    scanf("%f",&marks);
     
-    printf("ROLL=%d",roll);
+    printf("\nROLL=%d",roll);
     printf("\nGENDER=%c",gender);
-    printf("NAME=%[^\n]s",name);
-    printf("MARKS=%d",marks);
+    printf("\nNAME=%s",name);
+    printf("\nMARKS=%.2f",marks);
     return 0;
 }
